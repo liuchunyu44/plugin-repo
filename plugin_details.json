@@ -1254,5 +1254,78 @@
       "default_locale": "zh-CN",
       "locales_path": "_locales"
     }
+  },
+  {
+    "id": "XinxInxiN0.search_plugin",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "search_plugin",
+      "version": "1.0.0",
+      "description": "使用Brave Search API进行搜索并使用硅基流动API总结结果的插件",
+      "author": {
+        "name": "U+4E50",
+        "url": "https://github.com/XinxInxiN0"
+      },
+      "keywords": [
+        "搜索"
+      ],
+      "license": "GPLv3",
+      "host_application": {
+        "min_version": "0.9.0",
+        "max_version": "0.9.0"
+      }
+    }
+  },
+  {
+    "id": "Mettafy.timed_greeting_plugin",
+    "manifest": {
+      "manifest_version": 1,
+      "name": "定时问候插件",
+      "version": "0.2.0",
+      "description": "在指定时间段内，根据关键词向指定用户或群组发送由LLM生成的语句。",
+      "author": {
+        "name": "Mettafy",
+        "url": "https://github.com/Mettafy"
+      },
+      "license": "AGPL-v3.0",
+      "host_application": {
+        "min_version": "0.9.1",
+        "max_version": "0.9.1"
+      },
+      "keywords": [
+        "定时",
+        "问候",
+        "早安晚安",
+        "提醒",
+        "scheduled",
+        "greeting"
+      ],
+      "categories": [
+        "工具",
+        "提醒",
+        "Tools",
+        "Reminder"
+      ],
+      "repository_url": "https://github.com/Mettafy/timed_greeting_plugin",
+      "default_locale": "zh-CN",
+      "locales_path": "_locales"
+    }
+  },
+  {
+    "id": "SteamedbunsMC.SomeUtils",
+    "manifest": {
+      "manifest_version": 0.1,
+      "name": "QQ_Bot_Some_Utils",
+      "version": "0.1.0",
+      "description": "A simple qq group MaiMBot utils plugin.A piece of mess.",
+      "author": {
+        "name": "RandomDeveloper",
+        "url": "rand0mk4cas@outlook.com"
+      },
+      "license": "MIT License",
+      "host_application": {
+        "min_version": "0.8.0"
+      }
+    }
   }
 ]
